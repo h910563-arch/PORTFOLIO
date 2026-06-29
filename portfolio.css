@@ -7,12 +7,12 @@
     background-color: rgb(39, 52, 82);
  display: flex;
  justify-content: center;
- align-items: flex-start;
+ align-items: center;
  position:sticky;
   width: 100%;
 
  }
- .box1{
+ .header1{
  height: 50px;
  width: 50px;
  
@@ -25,19 +25,30 @@ margin-right:25px ;
 transition-property: all 2s ease-in 0.2s;
  
 }
-.box1:hover {
+.header1:hover {
  height: 100px;
  width: 100px;
  border-radius: 100%;
  transition-property: all 5s steps(4) 0.2s;
 }
+
+.header2{
+color:rgb(0, 166, 255);
+font-size:1.5rem;
+line-height: 4rem;
+}
+
+
 .intro{
-    margin-top: 0px;
+    margin-top: 2rem;
    background-color:#1E2A3A ;
    text-align: center;
     
 
     
+}
+.intro1{
+
 }
 .line{
     display:flex;
